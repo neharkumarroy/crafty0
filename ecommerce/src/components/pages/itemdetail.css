@@ -1,0 +1,274 @@
+.navbar {
+    height: 60px;
+    background-color: #fffcfc;
+    color: #000000;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 1rem;
+    
+  }
+  
+  .border12{
+    border: 2px solid transparent;
+  }
+
+  .border12:hover{
+    border: 2px solid rgb(197, 194, 194);
+  }
+  
+  .logo img {
+    margin-right: 10px;
+    margin-left: 10px;
+    
+  }
+  .mlogo{
+    width: 13vw;
+    height: 10vh;
+    background-size: cover;
+    align-items: center;
+  }
+.add-deliver{
+    font-size: 0.8rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    columns: #CCCCCC;
+    margin-left: 12px;
+}
+
+.add-location{
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-size: 0.9rem;
+    align-items: center;
+}
+
+  .clogo{
+    width: 100px;
+    height: 40px;
+  }
+
+  .cata{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 27px;
+    display: flex;
+    align-items: center;
+  }
+
+  
+
+  
+
+/* the bgr class is for the search, iddo why its named such */
+
+  .bgr{
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    height: 5vh;
+    width: 47vw;
+    border: 1px solid black;
+    border-radius: 20px 20px 20px 20px;
+  }
+
+.bgl{
+    width: 100vh;
+    height: 5vh;   
+}
+
+.searchicon{
+    width: 65px;
+    height: 45px;
+    display: flex;
+    background-color:#E50914;
+    color: white;
+    border-radius: 0px 20px 20px 0px;
+  
+}
+
+  input[type="search"] {
+    border: none;
+    background: transparent;
+    margin: 0;
+    padding: 7px 8px;
+    font-size: 14px;
+    color: inherit;
+    border: 1px solid transparent;
+    border-radius: inherit;
+  }
+  
+  input[type="search"]::placeholder {
+    color: #e2e2e2;
+  }
+  
+  button[type="submit"] {
+    text-indent: -999px;
+    overflow: hidden;
+    width: 90px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid transparent;
+    border-radius: inherit;
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat center;
+    cursor: pointer;
+    opacity: 0.7;
+  }
+  
+  button[type="submit"]:hover {
+    opacity: 1;
+  }
+  
+  button[type="submit"]:focus,
+  input[type="search"]:focus {
+    box-shadow: 0 0 3px 0 #1183d6;
+    border-color: #3b89c2;
+    outline: none;
+  }
+
+  .profileicon{
+    font-size: 27px;
+  }
+
+  .kartlogo{
+    font-size: 27px;
+  }
+
+  .plus-icon{
+    font-size: 27px;
+  }
+
+  /* Responsive design */
+  
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .logo {
+      margin-bottom: 10px;
+    }
+    .nav-links {
+      flex-direction: column;
+    }
+    .nav-links li a {
+      padding: 5px;
+    }
+  }
+
+  body{
+    background-color: #ffffff;
+  }
+  .mainimg{
+    display: inline-block;
+    height: 500px;
+    width: 500px;
+    /* margin-top: 10px;
+    margin-left: 40px; */
+
+  }
+  .sideimg{
+    display: inline-block;
+    margin-top: 40px;  
+  }
+  .jo{
+    height: 122px;
+    width: 122px;
+    border-radius: 20px;
+    border: 1px solid rgb(173, 169, 169);
+  }
+  .mainpic{
+    height: 500px;
+    width: 500px;
+    border-radius: 20px;
+    border: 1px solid rgb(173, 169, 169);
+  }
+  .content{
+    
+    display: inline-block;
+    height: 450px;
+    width: 490px;
+     margin-left: 60px;
+     align-content: end;
+     margin-top: 50px;
+  }
+  .similar-items{
+    display: flex;
+    flex-direction: row;
+  }
+
+.similarimg{
+  border-radius: 20px;
+  border: 1px solid rgb(0, 0, 0);
+}
+.reviews{
+  background-color: #dfd8d8;
+  height: 100vh;
+  width: 80vw;
+  border-radius: 20px;
+}
+.up{
+  font-size: 25px;
+  margin-left: 10px;
+}
+.cart{
+  background-color: red;
+  border-radius: 20px;
+  height: 70px;
+  width: 70px;
+  
+}
+.buynow{
+  border-radius: 20px;
+  height: 70px;
+  width: 140px;
+  
+}
+.buynowcart{
+  height: 20px;
+  width: 20px;
+}
+.bn{
+  display: inline-block;
+  align-items: center;
+  background-color: #ffffff;
+  height: 100px;
+  width: 100px;
+ 
+}
+.cb{
+  display: inline-block;
+  align-items: center;
+  background-color: #f7fcff;
+  height: 100px;
+  width: 100px;
+  margin-left: 200px;
+ 
+}
+
+.revi{
+  margin-left: 15px;
+}
+
+.cartandcontent
+{     background-color: #f0dedf;
+      border: 1px solid black;
+      display: inline-block;
+      height: 600px;
+      width: 600px;
+       align-content: end;
+       margin: 150px 10px 10px 10px;
+}
+.cb{
+  background-color: #f0dedf;
+}
+.bn{
+  background-color: #f0dedf;
+}
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+pre{
+  font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}

@@ -1,0 +1,333 @@
+
+*{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: border-box;
+
+}
+
+
+/* Navbar css begins here 
+.navbar {
+  height: 60px;
+  background-color: #cc0505;
+  color: #000000;
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  padding: 1rem;
+  
+}
+
+.border12{
+  border: 2px solid transparent;
+}
+
+.border12:hover{
+  border: 2px solid rgb(197, 194, 194);
+}
+
+.logo img {
+  margin-right: 10px;
+  margin-left: 10px;
+  
+}
+.mlogo{
+  width: 13vw;
+  height: 10vh;
+  background-size: cover;
+  align-items: center;
+}
+.add-deliver{
+  font-size: 0.8rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  columns: #d7cdcd;
+  margin-left: 12px;
+}
+
+/* .add-location{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+  /* font-size: 0.9rem;
+  align-items: center;
+}
+
+.clogo{
+  width: 100px;
+  height: 40px;
+}
+
+.cata{
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 27px;
+  display: flex;
+  align-items: center;
+}
+ */
+
+
+
+
+/* the bgr class is for the search, iddo why its named such */
+
+.bgr{
+  border: 1px solid black;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  height: 45px;
+  border: 1px solid black;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.bgl{
+  width: 700px;
+  height: 45px;
+  
+  
+  
+  
+  
+}
+
+.searchicon{
+  width: 65px;
+  height: 45px;
+  display: flex;
+  background-color:#E50914;
+  color: white;
+  border-radius: 0px 20px 20px 0px;
+  
+
+}
+
+input[type="search"] {
+  border: none;
+  background: transparent;
+  margin: 0;
+  padding: 7px 8px;
+  font-size: 14px;
+  color: inherit;
+  border: 1px solid transparent;
+  border-radius: inherit;
+}
+
+input[type="search"]::placeholder {
+  color: #f7efef;
+}
+
+button[type="submit"] {
+  text-indent: -999px;
+  overflow: hidden;
+  width: 90px;
+  padding: 0;
+  margin: 0;
+  border: 1px solid transparent;
+  border-radius: inherit;
+  background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat center;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+button[type="submit"]:hover {
+  opacity: 1;
+}
+
+button[type="submit"]:focus,
+input[type="search"]:focus {
+  box-shadow: 0 0 3px 0 #1183d6;
+  border-color: #3b89c2;
+  outline: none;
+}
+
+.profileicon{
+  font-size: 27px;
+}
+
+.kartlogo{
+  font-size: 27px;
+}
+
+.plus-icon{
+  font-size: 27px;
+}
+ */
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f5f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 95%;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .section {
+    border: 1px solid #e8f0eb;
+    margin-bottom: 20px;
+    background-color: #e9e7e7;
+    color: #040303;
+    padding: 20px;
+    width: 700px;
+    height: 300px;
+  }
+.box1{
+  display: flex;
+}
+  
+
+  .boxxx{
+    background-color: #e0e0e0;
+     height: 250px;
+     width:228px;
+     margin: 5px;
+     padding: 10px;
+    
+    }
+    
+    .boxxx:hover{
+    border: 2px solid black;
+    }
+    
+    .boxxximg{
+    align-items:center;
+    height: 90%;
+    width: auto;
+    }
+  
+  /* Header styles */
+  .header {
+    background-color: #d30404;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .header h1 {
+    margin: 0;
+    /* color : #3c0bc2; */
+  }
+  
+  .button {
+    padding: 10px 20px;
+    background-color: #190707;
+    color: #075a75;
+    border: 2px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  /* Checkout form styles */
+  .checkout-form .section-header {
+    background-color: #cb0303;
+    padding: 10px;
+    font-weight: bold;
+  
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input[type="text"],
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #2411b5;
+    border-radius: 4px;
+  }
+  
+  .payment-methods .form-group {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .payment-methods .form-group div {
+    flex-basis: 48%;
+  }
+  
+  .order-summary {
+    background-color: #ffffff;
+    padding: 20px;
+  }
+  
+  .order-summary ul {
+    /* background-color: #d30404; */
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .order-summary li:not(:last-child) {
+    border-bottom: 1px solid #eaeaea;
+    
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .confirm-order-btn {
+    background-color: #df2a06e1;
+    color: rgb(8, 8, 8);
+    margin-top: 20px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    width: 50%;
+    border-radius: 60px;
+  }
+
+
+
+  footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-section {
+    margin-right: 20px;
+  }
+  
+  .footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-section ul li a {
+    text-decoration: none;
+    color: #666;
+  }
+  
+  .footer-section ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .copyright {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+  }

@@ -1,0 +1,164 @@
+
+  body{
+    background-color: #ffffff;
+  }
+  
+  .mainpic{
+    height: 500px;
+    width: 500px;
+    border-radius: 20px;
+    border: 1px solid rgb(173, 169, 169);
+    margin-top: 20px;
+  }
+  .sideimg{
+    display: inline-block;
+    margin-top: 5px;  
+    margin-left: 40px;
+  }
+  .jo{
+    height: 122px;
+    width: 122px;
+    border-radius: 20px;
+    border: 1px solid rgb(173, 169, 169);
+  }
+  
+  
+  .similar-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 50px;
+    margin: 8px;
+    
+  }
+
+.similarimg{
+  border-radius: 20px;
+  border: 1px solid rgb(0, 0, 0);
+  margin: 10px;
+  height: 180px;
+  width: 160px;
+}
+.reviews{
+  background-color: #f5d9d9;
+  height: 50vh;
+  width: 93vw;
+  border-radius: 20px;
+  margin-left: 4px;
+}
+.up{
+  font-size: 25px;
+  margin-left: 10px;
+}
+.cart{
+  background-color: red;
+  border-radius: 20px;
+  height: 70px;
+  width: 70px;
+  
+}
+
+.cartbuy{
+  display: inline;
+  margin-left: 10px;
+}
+
+.buynow{
+  border-radius: 20px;
+  height: 70px;
+  width: 190px;
+  
+}
+.buynowcart{
+  height: 20px;
+  width: 20px;
+}
+.bn{
+  display: inline-block;
+  align-items: center;
+  background-color: #ffffff;
+  height: 100px;
+  width: 100px;
+ 
+}
+.top{
+  margin-top: 1px;
+  
+
+}
+.cb{
+  display: inline-block;
+  align-items: center;
+  background-color: #f7fcff;
+  height: 100px;
+  width: 100px;
+  margin-left: 200px;
+}
+.attract{
+  background-color: #E50914;
+  height: 30px;
+  width: 140px;
+  border-radius: 5px;
+  color: white;
+  
+}
+textarea{
+  box-sizing: border-box;
+  border: 2px solid rgb(255, 48, 48);
+  border-radius: 4px;
+  background-color: hsl(0, 0%, 95%);
+  font-size: 16px;
+  resize: none;
+}
+
+.content{
+    
+  display: inline-block;
+  /* height: 500px;
+  width: 500px; */
+  height: auto;
+  width:  900px;
+   margin-left: 60px;
+   align-content: end;
+   margin-top: 1px;
+}
+
+.cartandcontent
+ {    
+       display: inline-block;
+       height: 500px;
+       width: 570px;
+       margin-top: 1px;
+       margin-left: 40px;
+       /* border: 1px solid black; */
+       border-radius: 20px;
+ }
+ .mainimg{
+  display: inline-block;
+  height: 500px;
+  width: 500px;
+  margin-top: 7px;
+  margin-left: 40px;
+}
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+pre{
+  font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+.itempara{
+  font-size: 13px;
+}
+.stock{
+  color: green;
+}
+.sp{
+  font-size: 30px;
+  
+}
+.rev{
+  font-size: 50px;
+  font-weight: bold;
+}
