@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
+import './App.css';
+import { BrowserRouter, Route ,Routes} from 'react-router-dom';
+import CategorySection from './components/pages/CategorySection';
+import Homepage from './components/pages/Homepage';
+import Navbar from './components/common/Navbar';
+import PaintingsItems from './components/pages/PaintingsItems';
+import Candle from './components/pages/Candle';
+import Single from './components/pages/Single';
+import Orders from './components/pages/Orders';
+import Login from './components/pages/Login';
+import Signup from './components/pages/Signup';
+import CartPage from './components/pages/Cart';
+
+function App() {
+  return (
+    <BrowserRouter>
+    <Routes>
+      <Route path='/' element={<Homepage/>}/>
+      <Route path='/CategorySection' element={<CategorySection/>}/>
+      <Route path='/PaintingsItems' element={<PaintingsItems/>}/>
+      <Route path='/candle' element={<Candle/>}/>
+      <Route path='/Single' element={<Single/>}/>
+      <Route path='/Orders' element={<Orders/>}/>
+      <Route path='/Login' element={<Login/>}/>
+      <Route path='/Cart' element={<CartPage/>}/>
+      <Route path='/Signup' element={<Signup/>}/>
+
+      
+      
+
+
+
+    </Routes>
+    </BrowserRouter>
+  );
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+export default App;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
